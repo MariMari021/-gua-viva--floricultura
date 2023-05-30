@@ -506,21 +506,21 @@ border-radius: 5.04804px;
 
 .sing:hover{
     
-    border-bottom: 2px solid;
+    border-bottom: 2px black solid;
     transform: scale(1.1);
     transition: transform 0,5s ease-out;
 }
 
 .adao:hover{
     
-    border-bottom: 2px solid;
+    border-bottom: 2px black solid;
     transform: scale(1.1);
     transition: transform 0,5s ease-out;
 }
 
 .boia:hover{
    
-    border-bottom: 2px solid;
+    border-bottom: 2px black solid;
     transform: scale(1.1);
     transition: transform 0,5s ease-out;
 }
