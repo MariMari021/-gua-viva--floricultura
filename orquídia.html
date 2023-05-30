@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Orquídia - Água Viva</title>
+    <link rel="stylesheet" href="produtooito.css">
+    <link rel="shortcut icon" href="água_viva__2_-removebg-preview 1.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img-produfixo/logo.png" alt="logo da floricultura água viva.">
+        </div>
+        <nav>
+            <div class="main-nav">
+                <ul>
+                    <li><a href="#">Lançamentos</a></li>
+                    <li><a href="#">Plantas</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                    <li><a href="#">Carrinho</a></li>
+                    <li><a href="#">Favoritos</a></li>
+                    <li><a href="#">Cadastre-se</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="gran"></div>
+
+        <a href="#"><img class="seta" src="img-produfixo/seta.png" alt="">
+
+            <h3 class="titulo">Mais vendidas</h3>
+</a>
+        <div class="center">
+            <img class="arr" src="img-orquidia/Rectangle 38.png" onmouseover="this.src='img-orquidia/img 2.webp'"
+                onmouseout="this.src='img-orquidia/Rectangle 38.png'">
+
+
+
+            <div id="subir">
+                <p class="t">Orquídia</p>
+                <p class="x">R$ 100,00</p>
+                <p class="enco">Sob encomenda</p>
+                <p class="ri">A orquídia em 24h ela terá removido 80% das toxinas do ar, incluindo fumaça de cigarro.
+                </p>
+
+                <button type="submit" onclick="openPopupp()">
+                    <img class="he" src="img-produfixo/Vector.png" alt="">
+                </button>
+                <div class="popupp" id="popupp">
+                    <img src="img-produfixo/logo.png" alt="">
+                    <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
+                    <button type="button" onclick="closePopupp()"> OK</button>
+                </div>
+
+                <script>
+                    let popupp = document.getElementById("popupp");
+
+                    function openPopupp() {
+                        popupp.classList.add("open-popupp");
+                    }
+
+
+                    function closePopupp() {
+                        popupp.classList.remove("open-popupp");
+                    }
+
+
+                </script>
+
+
+
+                <button type="submit" class="rox" onclick="openPopup()">
+                    <div>
+                        <p class="tra"> Adicionar ao carrinho</p>
+                    </div>
+            </div></button>
+
+            <div class="popup" id="popup">
+                <img src="img-produfixo/logo.png" alt="">
+                <p>Para adicionar ao carrinho, cadastre-se ou entre em seu perfil.</p>
+                <button type="button" onclick="closePopup()"> OK</button>
+            </div>
+
+            <script>
+                let popup = document.getElementById("popup");
+
+                function openPopup() {
+                    popup.classList.add("open-popup");
+                }
+
+
+                function closePopup() {
+                    popup.classList.remove("open-popup");
+                }
+
+
+            </script>
+
+
+
+
+
+        </div>
+
+        <div class="fim"></div>
+
+        <p class="recom">Recomendações</p>
+        <section class="cima">
+           <a href="#"><article>
+                <img class="sing" src="img-orquidia/image 65 (1).png" alt="">
+                <p class="r">Pau D'água</p>
+                <p class="din">R$XXX,XX</p>
+                <p class="menda">Sob encomenda</p>
+            </article></a> 
+
+
+
+            <a href="#"><article>
+                <img class="adao" src="img-orquidia/image 62.png" alt="">
+                <p class="c">Jiboia</p>
+                <p class="eiro">R$ 40,00</p>
+                <p class="titudois">Sob encomenda</p>
+            </article></a>
+
+            <a href="#"><article>
+                <img class="boia" src="img-orquidia/image 73.png" alt="">
+                <p class="j">Pilar fosco</p>
+                <p class="money">R$XXX,XX</p>
+                <p class="subtitu">Sob encomenda</p>
+            </article></a>
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <div class="roxao">
+            <div class="empurrar">
+                <a class="Plantas" href="#">Plantas</a>
+
+
+                <div class="linhaum"></div>
+
+
+                <a class="Acessórios" href="#">Acessórios</a>
+
+
+                <div class="linhadois"></div>
+
+
+                <a class="Lançamentos" href="#">Lançamentos</a>
+
+
+                <div class="linhatres"></div>
+
+
+                <a class="Login" href="#">Login</a>
+
+
+                <div class="linhaquatro"></div>
+
+
+                <a class="Favoritos" href="#">Favoritos</a>
+
+
+                <div class="linhacinco"></div>
+
+
+                <a class="Carrinho" href="#">Carrinho</a>
+
+
+                <div class="linhaseis"></div>
+            </div>
+
+            <a class="Suporte" href="#">Suporte</a>
+
+
+            <div class="linhasete"></div>
+
+
+            <a class="Sobre" href="#">Sobre nós</a>
+
+
+
+        </div>
+
+
+        <p class="app">Siga-nos</p>
+        <a href="https://pt-br.facebook.com/people/%C3%81gua-Viva-Flores-e-Decora%C3%A7%C3%B5es/100057605292210/"><img
+                class="dimi" src="img-produfixo/image 33.png" alt=""></a>
+        <img class="mini" src="img-produfixo/image 34.png" alt="">
+
+        <p class="endereco">Endereço:Rua Santos Dumont, Avenida Santos Dumont, 680, Ferraz de Vasconcelos - SP,
+            08530-000</p>
+    </footer>
+
+</body>
+
+</html>
