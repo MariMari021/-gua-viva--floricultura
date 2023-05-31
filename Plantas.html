@@ -47,7 +47,7 @@
         <div class="todas-plantas">
             <div class="plantas">
                 <div class="planta">
-                    <a href="#">
+                    <a href="tulipa.html">
                         <img src="imagem/tulipa.png" alt="tulipa" class="imagem-flor">
 
                         <div class="titulo-planta">
@@ -55,51 +55,83 @@
                                 Tulipa
                             </h1>
                     </a>
+                    <button type="submit" onclick="openPopupp()">
                     <div class="vetor">
                         <img src="imagem/vector coracao.png" alt="vetor coração">
                     </div>
-                </div>
+               </button> 
+               <div class="popupp" id="popupp">
+                <img id=overlay src="img-produfixo/logo.png" alt="" >
+                <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
+                <button type="button" onclick="closePopupp()"> OK</button>
+            </div>
+
+            <script>
+                let popupp = document.getElementById("popupp");
+
+                function openPopupp() {
+                    popupp.classList.add("open-popupp");
+                }
+
+
+                function closePopupp() {
+                    popupp.classList.remove("open-popupp");
+                }
+
+
+            </script>
+
+
+            </div>
+
+
                 <div class="planta-preco">
                     <h3 class="preco">
-                        R$ XXX,XX
+                        R$ 50,00
                     </h3>
                 </div>
             </div>
 
             <div class="planta">
-                <a href="#">
+                <a href="cacto.html">
                     <img src="imagem/cacto.png" alt="cacto" class="imagem-flor">
                     <div class="titulo-planta">
                         <h1>
                             Cacto
                         </h1>
                 </a>
+                <button type="submit" onclick="openPopupp()">
                 <div class="vetor">
                     <img src="imagem/vector coracao.png" alt="vetor coração">
                 </div>
+            </button>
+            
             </div>
             <div class="planta-preco">
                 <h3 class="preco">
-                    R$ XXX,XX
+                    R$ 20,00
                 </h3>
             </div>
         </div>
 
         <div class="planta">
-            <a href="#">
+            <a href="babosa.html">
                 <img src="imagem/babosa.png" alt="babosa" class="imagem-flor">
                 <div class="titulo-planta">
                     <h1>
                         Babosa
                     </h1>
             </a>
+
+            <button type="submit" onclick="openPopupp()">
             <div class="vetor">
                 <img src="imagem/vector coracao.png" alt="vetor coração">
             </div>
+        </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
-                R$ XXX,XX
+                R$ 30,00
             </h3>
         </div>
         </div>
@@ -107,58 +139,88 @@
 
         <div class="plantas-coluna">
             <div class="planta">
-                <a href="#">
+                <a href="camomila.html">
                     <img src="imagem/camomila.png" alt="camomila" class="imagem-flor">
                     <div class="titulo-planta">
                         <h1>
                             Camomila
                         </h1>
                 </a>
+
+                <button type="submit" onclick="openmodal()">
                 <div class="vetor">
                     <img src="imagem/vector coracao.png" alt="vetor coração">
                 </div>
+            </button>
+            <div class="modal" id="modal">
+                <img id=overlay src="img-produfixo/logo.png" alt="" >
+                <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
+                <button type="button" onclick="closemodal()">OK</button>
             </div>
+
+            </div>
+
+            <script>
+                let modal = document.getElementById("modal");
+
+                function openmodal() {
+                    modal.classList.add("open-modal");
+                }
+
+
+                function closemodal() {
+                    modal.classList.remove("open-modal");
+                }
+
+
+            </script>
+
             <div class="planta-preco">
                 <h3 class="preco">
-                    R$ XXX,XX
+                    R$ 15,00
                 </h3>
             </div>
         </div>
 
         <div class="planta">
-            <a href="#">
+            <a href="margarida.html">
                 <img src="imagem/Margarida.png" alt="margarida" class="imagem-flor">
                 <div class="titulo-planta">
                     <h1>
                         Margarida
                     </h1>
             </a>
+            <button type="submit" onclick="openmodal()">
             <div class="vetor">
                 <img src="imagem/vector coracao.png" alt="vetor coração">
             </div>
+        </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
-                R$ XXX,XX
+                R$ 35,00
             </h3>
         </div>
         </div>
 
         <div class="planta">
-            <a href="#">
+            <a href="girassol.html">
                 <img src="imagem/Girassol.png" alt="girassol" class="imagem-flor">
                 <div class="titulo-planta">
                     <h1>
                         Girassol
                     </h1>
             </a>
+            <button type="submit" onclick="openmodal()">
             <div class="vetor">
                 <img src="imagem/vector coracao.png" alt="vetor coração">
             </div>
+        </button>
+
         </div>
         <div class="planta-preco">
             <h3 class="preco">
-                R$ XXX,XX
+                R$ 15,00
             </h3>
         </div>
         </div>
@@ -166,58 +228,88 @@
 
         <div class="plantas-colunas">
             <div class="planta">
-                <a href="#">
+                <a href="begonia.html">
                     <img src="imagem/bergonia.png" alt="begônia" class="imagem-flor">
                     <div class="titulo-planta">
                         <h1>
                             Begônia
                         </h1>
                 </a>
+                <button type="submit" onclick="openover()">
                 <div class="vetor">
                     <img src="imagem/vector coracao.png" alt="vetor coração">
                 </div>
+            </button>
+
+            <div class="over" id="over">
+                <img id=overlay src="img-produfixo/logo.png" alt="" >
+                <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
+                <button type="button" onclick="closeover()">OK</button>
+            </div>
+
+            <script>
+                let over = document.getElementById("over");
+
+                function openover() {
+                    over.classList.add("open-over");
+                }
+
+
+                function closeover() {
+                    over.classList.remove("open-over");
+                }
+
+
+            </script>
+
+
+
             </div>
             <div class="planta-preco">
                 <h3 class="preco">
-                    R$ XXX,XX
+                    R$ 50,00
                 </h3>
             </div>
         </div>
 
         <div class="planta">
-            <a href="#">
+            <a href="pleomele.html">
                 <img src="imagem/Pleomele.png" alt="Pleomele" class="imagem-flor">
                 <div class="titulo-planta">
                     <h1>
                         Pleomele
                     </h1>
             </a>
+            <button type="submit" onclick="openover()">
             <div class="vetor">
                 <img src="imagem/vector coracao.png" alt="vetor coração">
             </div>
+        </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
-                R$ XXX,XX
+                R$ 45,00
             </h3>
         </div>
         </div>
 
         <div class="planta">
-            <a href="#">
+            <a href="paudaagua.html">
                 <img src="imagem/Pau D’água.png" alt="pau d'água" class="imagem-flor">
                 <div class="titulo-planta">
                     <h1>
                         Pau D’água
                     </h1>
             </a>
+            <button type="submit" onclick="openover()">
             <div class="vetor">
                 <img src="imagem/vector coracao.png" alt="vetor coração">
             </div>
+        </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
-                R$ XXX,XX
+                R$ 49,90
             </h3>
         </div>
         </div>
@@ -250,7 +342,7 @@
                 <article>
                     <img class="vaso2" src="imagem/vaso irrigavel.png" alt="vaso irrigável">
                     <p class="irrigavel">Vaso irrigável</p>
-                    <p class="preco2">R$XXX,XX</p>
+                    <p class="preco2">R$ 110,00</p>
                     <p class="encomenda2">Sob encomenda</p>
                 </article>
             </a>
@@ -259,7 +351,7 @@
                 <article>
                     <img class="nani" src="imagem/vaso nani.png" alt="vaso nani">
                     <p class="vaso3">Vaso nani</p>
-                    <p class="preco3">R$XXX,XX</p>
+                    <p class="preco3">R$ 11,90</p>
                     <p class="encomenda3">Sob encomenda</p>
                 </article>
             </a>
@@ -272,7 +364,7 @@
                 <article>
                     <img class="item1" src="imagem/estante.png" alt="estante">
                     <p class="estante">Estante</p>
-                    <p class="preco4">R$XXX.XX</p>
+                    <p class="preco4">R$ 139,90</p>
                     <p class="encomenda4">Sob encomenda</p>
                 </article>
             </a>
@@ -281,7 +373,7 @@
                 <article>
                     <img class="item2" src="imagem/kit jardim.png" alt="kit jardim">
                     <p class="kitjardim">Kit jardim</p>
-                    <p class="preco5">R$XXX,XX</p>
+                    <p class="preco5">R$ 28,90</p>
                     <p class="encomenda5">Sob encomenda</p>
                 </article>
             </a>
@@ -290,7 +382,7 @@
                 <article>
                     <img class="item3" src="imagem/suporte liso.png" alt="suporte liso">
                     <p class="suporteliso">Suporte liso</p>
-                    <p class="preco6">R$XXX,XX</p>
+                    <p class="preco6">R$ 149,90</p>
                     <p class="encomenda6">Sob encomenda</p>
                 </article>
             </a>

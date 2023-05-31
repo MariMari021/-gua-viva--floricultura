@@ -175,6 +175,195 @@ body {
     padding-top: 45px;
 }
 
+.popupp{
+    /* border: #000000 solid 1px; */
+    width: 370px;
+    height: 371px;
+    background: #ffffff;
+    border-radius: 11.24px;
+    position: absolute;
+   left: 760PX;
+   margin-top: 454px;
+   top:0;
+   z-index: 3;
+    transform: translate(-50%,-50%) ;
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333 ;
+    justify-content: center;
+    visibility: hidden;
+    transition: transform 0.1s, top 0.4s;
+    box-shadow:  0 45px 85px #383842 ;
+   
+}
+
+
+#overlay{
+    width: 146.03px;
+    height: 152.9px;
+}
+
+
+
+
+    .popupp p{
+        font-size:21.36px ;
+        font-weight: 500;
+        margin: 30px 0 25px;
+        font-family: 'darker-regular';
+       
+        
+    }
+
+    button{
+        background-color: #ffffff;
+    }
+
+    .popupp button{
+        width: 115.42px;
+        height: 43.77px;
+        margin-top: 17px;
+        padding: 10px 0;
+        background: #EDE4FF;
+        color: #000000;
+        font-family: 'antic';
+        border: 0;
+        outline: none;
+        font-size: 18px;
+        border-radius:17.99px;
+        cursor: pointer;
+       
+    }
+
+
+    .open-popupp{
+        visibility: visible;
+        top: 250px;
+        transform: translate(-50%,-50%) scale(1);
+       
+    
+    }
+
+
+    .modal{
+        /* border: #000000 solid 1px; */
+        width: 370px;
+        height: 371px;
+        background: #ffffff;
+        border-radius: 11.24px;
+        position: absolute;
+       left: 760PX;
+       margin-top: 924px;
+       top:0;
+       z-index: 3;
+        transform: translate(-50%,-50%) ;
+        text-align: center;
+        padding: 0 30px 30px;
+        color:#333 ;
+        justify-content: center;
+        visibility: hidden;
+        transition: transform 0.1s, top 0.4s;
+        box-shadow:  0 45px 85px #383842 ;
+       
+    }
+
+
+    .modal p{
+        font-size:21.36px ;
+        font-weight: 500;
+        margin: 30px 0 25px;
+        font-family: 'darker-regular';
+       
+        
+    }
+
+
+    .modal button{
+        width: 115.42px;
+        height: 43.77px;
+        margin-top: 17px;
+        padding: 10px 0;
+        background: #EDE4FF;
+        color: #000000;
+        font-family: 'antic';
+        border: 0;
+        outline: none;
+        font-size: 18px;
+        border-radius:17.99px;
+        cursor: pointer;
+       
+    }
+
+
+    
+    .open-modal{
+        visibility: visible;
+        top: 250px;
+        transform: translate(-50%,-50%) scale(1);
+       
+    
+    }
+    
+
+    .over{
+        /* border: #000000 solid 1px; */
+        width: 370px;
+        height: 371px;
+        background: #ffffff;
+        border-radius: 11.24px;
+        position: absolute;
+       left: 760PX;
+       margin-top: 1415px;
+       top:0;
+       z-index: 3;
+        transform: translate(-50%,-50%) ;
+        text-align: center;
+        padding: 0 30px 30px;
+        color:#333 ;
+        justify-content: center;
+        visibility: hidden;
+        transition: transform 0.1s, top 0.4s;
+        box-shadow:  0 45px 85px #383842 ;
+       
+    }
+    
+    .over p{
+        font-size:21.36px ;
+        font-weight: 500;
+        margin: 30px 0 25px;
+        font-family: 'darker-regular';
+       
+        
+    }
+
+    .over button{
+        width: 115.42px;
+        height: 43.77px;
+        margin-top: 17px;
+        padding: 10px 0;
+        background: #EDE4FF;
+        color: #000000;
+        font-family: 'antic';
+        border: 0;
+        outline: none;
+        font-size: 18px;
+        border-radius:17.99px;
+        cursor: pointer;
+       
+    }
+
+
+    .open-over{
+        visibility: visible;
+        top: 250px;
+        transform: translate(-50%,-50%) scale(1);
+       
+    
+    }
+
+
+
+
 .planta img {
     width: 244px;
     height: 244px;
@@ -208,7 +397,7 @@ body {
 
 .preco {
     font-family: 'antic';
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .planta-preco {
@@ -274,6 +463,7 @@ a {
 .vetor {
     width: 20px;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .recomendacao {
