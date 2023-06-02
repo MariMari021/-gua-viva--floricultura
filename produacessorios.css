@@ -263,7 +263,12 @@ color: #4E4A4A;
     color: #000000;
 }
 
+.informacao{
+  
+        top: 25px;
+        position: absolute;
 
+}
 
 .he{
     position: absolute;
@@ -456,7 +461,7 @@ color: #4F4949;
 .center{
 
 position: absolute;
-    left: 50px;
+    left: 80px;
   margin-top: -18px;
 }
 
