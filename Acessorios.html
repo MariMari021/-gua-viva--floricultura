@@ -55,9 +55,35 @@
                                 Estante
                             </h1>
                     </a>
+                    
+                   </button> 
+                   <div class="popupp" id="popupp">
+                    <img id=overlay src="img-produfixo/logo.png" alt="" >
+                    <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
+                    <button type="button" onclick="closePopupp()"> OK</button>
+                </div>
+    
+                <script>
+                    let popupp = document.getElementById("popupp");
+    
+                    function openPopupp() {
+                        popupp.classList.add("open-popupp");
+                    }
+    
+    
+                    function closePopupp() {
+                        popupp.classList.remove("open-popupp");
+                    }
+    
+    
+                </script>
+
+
+<button type="submit" onclick="openPopupp()">
                     <div class="vetor">
                         <img src="imagem/vector coracao.png" alt="vetor coração">
                     </div>
+</button>
                 </div>
                 <div class="planta-preco">
                     <h3 class="preco">
@@ -74,9 +100,12 @@
                             Pilar madeira
                         </h1>
                 </a>
+
+                <button type="submit" onclick="openPopupp()">
                 <div class="vetor">
                     <img src="imagem/vector coracao.png" alt="vetor coração">
                 </div>
+                </button>
             </div>
             <div class="planta-preco">
                 <h3 class="preco">
@@ -93,9 +122,11 @@
                         Arandela
                     </h1>
             </a>
+            <button type="submit" onclick="openPopupp()">
             <div class="vetor">
                 <img src="imagem/vector coracao.png" alt="vetor coração">
             </div>
+            </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
@@ -114,10 +145,34 @@
                             Vaso irrigável
                         </h1>
                 </a>
+
+                <button type="submit" onclick="openmodal()">
                 <div class="vetor">
                     <img src="imagem/vector coracao.png" alt="vetor coração">
                 </div>
+                </button>
             </div>
+
+            <div class="modal" id="modal">
+                <img id=overlay src="img-produfixo/logo.png" alt="" >
+                <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
+                <button type="button" onclick="closemodal()">OK</button>
+            </div>
+            <script>
+                let modal = document.getElementById("modal");
+
+                function openmodal() {
+                    modal.classList.add("open-modal");
+                }
+
+
+                function closemodal() {
+                    modal.classList.remove("open-modal");
+                }
+
+
+            </script>
+
             <div class="planta-preco">
                 <h3 class="preco">
                     R$ 110,00
@@ -133,9 +188,11 @@
                         Vaso nani
                     </h1>
             </a>
+            <button type="submit" onclick="openmodal()">
             <div class="vetor">
                 <img src="imagem/vector coracao.png" alt="vetor coração">
             </div>
+            </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
@@ -152,9 +209,11 @@
                         Vaso circular
                     </h1>
             </a>
+            <button type="submit" onclick="openmodal()">
             <div class="vetor">
                 <img src="imagem/vector coracao.png" alt="vetor coração">
             </div>
+            </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
@@ -173,9 +232,32 @@
                             Suporte liso
                         </h1>
                 </a>
+                <div class="over" id="over">
+                    <img id=overlay src="img-produfixo/logo.png" alt="" >
+                    <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
+                    <button type="button" onclick="closeover()">OK</button>
+                </div>
+    
+                <script>
+                    let over = document.getElementById("over");
+    
+                    function openover() {
+                        over.classList.add("open-over");
+                    }
+    
+    
+                    function closeover() {
+                        over.classList.remove("open-over");
+                    }
+    
+    
+                </script>
+    
+    <button type="submit" onclick="openover()">
                 <div class="vetor">
                     <img src="imagem/vector coracao.png" alt="vetor coração">
                 </div>
+    </button>
             </div>
             <div class="planta-preco">
                 <h3 class="preco">
@@ -192,9 +274,11 @@
                         Kit jardim
                     </h1>
             </a>
+            <button type="submit" onclick="openover()">
             <div class="vetor">
                 <img src="imagem/vector coracao.png" alt="vetor de coração">
             </div>
+            </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
@@ -211,9 +295,11 @@
                         Pilar fosco
                     </h1>
             </a>
+            <button type="submit" onclick="openover()">
             <div class="vetor">
                 <img src="imagem/vector coracao.png" alt="vetor de coração">
             </div>
+            </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
