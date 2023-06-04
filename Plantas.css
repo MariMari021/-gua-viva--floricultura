@@ -83,18 +83,29 @@ body {
     font-family: 'antic';
     text-decoration: none;
     color: #000;
-    font-size: 20px;
+    font-size: 22px;
 }
 
-.logo {
-    width: 150px;
-    height: 150px;
+nav ul li a {
+    transition: color 0.4s;
+    position: relative;
+
+}
+
+nav li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #CDB4FF;
+
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    bottom: -3px;
+
+    transition: width 0.3s;
 }
 
-.logo img {
+nav ul li a:hover::after {
     width: 100%;
 }
 
@@ -109,6 +120,21 @@ body {
 .logo img {
     width: 100%;
 }
+
+.logo {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo img {
+    width: 100%;
+}
+
+
+
 
 .gran {
     height: 0px;

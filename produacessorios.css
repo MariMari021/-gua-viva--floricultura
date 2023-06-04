@@ -97,7 +97,7 @@ body {
     font-family: 'anticc';
     text-decoration: none;
     color: #000;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .logo {
@@ -109,6 +109,30 @@ body {
 }
 
 .logo img {
+    width: 100%;
+}
+
+
+nav ul li a {
+    transition: color 0.4s;
+    position: relative;
+
+}
+
+nav li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #CDB4FF;
+
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
     width: 100%;
 }
 
