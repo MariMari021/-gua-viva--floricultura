@@ -179,8 +179,8 @@ margin-left: 55px;
     width: 95px;
 height: 0px;
 margin-left: -190px;
-border: 2px solid #6565F8;
-margin-top: -25px;
+border: 1px solid #6565F8;
+margin-top: -37px;
 
 }
 
@@ -531,7 +531,7 @@ top: -312px ;
     position: absolute;
     width: 100%;
     height: 323px;
-    top: 2300px;
+    top: 2400px;
     text-align: center;
     align-content: center;
     justify-content: center;
@@ -750,7 +750,7 @@ top: -312px ;
     width: 119px;
     height: 17px;
     left: 719px;
-    top: 2765px;
+    top: 2870px;
     font-family: 'inter-semibold';
     font-style: normal;
     font-weight: 600;
@@ -765,7 +765,7 @@ top: -312px ;
     width: 36px;
     height: 36px;
     left: 740px;
-    top: 2805px;
+    top: 2905px;
 }
 
 .insta {
@@ -773,7 +773,7 @@ top: -312px ;
     width: 33px;
     height: 33px;
     left: 784px;
-    top: 2806.5px;
+    top: 2905.5px;
 }
 
 .endereco {
@@ -781,7 +781,7 @@ top: -312px ;
     width: 898px;
     height: 17px;
     left: 315.5px;
-    top: 2880px;
+    top: 2970px;
     font-family: 'inter-regular';
     font-style: normal;
     font-weight: 300;
@@ -815,4 +815,15 @@ top: -312px ;
     line-height: 52px;
     color: #fff;
     transform: rotate(90deg);
+}
+
+.texto-final {
+    margin-top: 57px;
+    text-align: center;
+    font-family: 'antic';
+    font-size: 27px;
+}
+
+.parte-roxa {
+    color: #6F01FF;
 }

@@ -31,6 +31,11 @@
         <hr class="gran">
 
         <div class="cupom">
+            <a href="#">
+                <div class="vetor-seta">
+                    <img src="imagem/vector seta branca.png" alt="seta" class="vetor seta branca">
+                </div>
+            </a>
             <h1 class="off">
                 20% OFF em compras acima de R$ 79,99
             </h1>
@@ -56,33 +61,33 @@
                             </h1>
                     </a>
                     <button type="submit" onclick="openPopupp()">
-                    <div class="vetor">
-                        <img src="imagem/vector coracao.png" alt="vetor coração">
+                        <div class="vetor">
+                            <img src="imagem/vector coracao.png" alt="vetor coração">
+                        </div>
+                    </button>
+                    <div class="popupp" id="popupp">
+                        <img id=overlay src="img-produfixo/logo.png" alt="">
+                        <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
+                        <button type="button" onclick="closePopupp()"> OK</button>
                     </div>
-               </button> 
-               <div class="popupp" id="popupp">
-                <img id=overlay src="img-produfixo/logo.png" alt="" >
-                <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
-                <button type="button" onclick="closePopupp()"> OK</button>
-            </div>
 
-            <script>
-                let popupp = document.getElementById("popupp");
+                    <script>
+                        let popupp = document.getElementById("popupp");
 
-                function openPopupp() {
-                    popupp.classList.add("open-popupp");
-                }
+                        function openPopupp() {
+                            popupp.classList.add("open-popupp");
+                        }
 
 
-                function closePopupp() {
-                    popupp.classList.remove("open-popupp");
-                }
+                        function closePopupp() {
+                            popupp.classList.remove("open-popupp");
+                        }
 
 
-            </script>
+                    </script>
 
 
-            </div>
+                </div>
 
 
                 <div class="planta-preco">
@@ -101,11 +106,11 @@
                         </h1>
                 </a>
                 <button type="submit" onclick="openPopupp()">
-                <div class="vetor">
-                    <img src="imagem/vector coracao.png" alt="vetor coração">
-                </div>
-            </button>
-            
+                    <div class="vetor">
+                        <img src="imagem/vector coracao.png" alt="vetor coração">
+                    </div>
+                </button>
+
             </div>
             <div class="planta-preco">
                 <h3 class="preco">
@@ -124,10 +129,10 @@
             </a>
 
             <button type="submit" onclick="openPopupp()">
-            <div class="vetor">
-                <img src="imagem/vector coracao.png" alt="vetor coração">
-            </div>
-        </button>
+                <div class="vetor">
+                    <img src="imagem/vector coracao.png" alt="vetor coração">
+                </div>
+            </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
@@ -148,15 +153,15 @@
                 </a>
 
                 <button type="submit" onclick="openmodal()">
-                <div class="vetor">
-                    <img src="imagem/vector coracao.png" alt="vetor coração">
+                    <div class="vetor">
+                        <img src="imagem/vector coracao.png" alt="vetor coração">
+                    </div>
+                </button>
+                <div class="modal" id="modal">
+                    <img id=overlay src="img-produfixo/logo.png" alt="">
+                    <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
+                    <button type="button" onclick="closemodal()">OK</button>
                 </div>
-            </button>
-            <div class="modal" id="modal">
-                <img id=overlay src="img-produfixo/logo.png" alt="" >
-                <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
-                <button type="button" onclick="closemodal()">OK</button>
-            </div>
 
             </div>
 
@@ -191,10 +196,10 @@
                     </h1>
             </a>
             <button type="submit" onclick="openmodal()">
-            <div class="vetor">
-                <img src="imagem/vector coracao.png" alt="vetor coração">
-            </div>
-        </button>
+                <div class="vetor">
+                    <img src="imagem/vector coracao.png" alt="vetor coração">
+                </div>
+            </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
@@ -212,10 +217,10 @@
                     </h1>
             </a>
             <button type="submit" onclick="openmodal()">
-            <div class="vetor">
-                <img src="imagem/vector coracao.png" alt="vetor coração">
-            </div>
-        </button>
+                <div class="vetor">
+                    <img src="imagem/vector coracao.png" alt="vetor coração">
+                </div>
+            </button>
 
         </div>
         <div class="planta-preco">
@@ -236,31 +241,31 @@
                         </h1>
                 </a>
                 <button type="submit" onclick="openover()">
-                <div class="vetor">
-                    <img src="imagem/vector coracao.png" alt="vetor coração">
+                    <div class="vetor">
+                        <img src="imagem/vector coracao.png" alt="vetor coração">
+                    </div>
+                </button>
+
+                <div class="over" id="over">
+                    <img id=overlay src="img-produfixo/logo.png" alt="">
+                    <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
+                    <button type="button" onclick="closeover()">OK</button>
                 </div>
-            </button>
 
-            <div class="over" id="over">
-                <img id=overlay src="img-produfixo/logo.png" alt="" >
-                <p>Para adicionar aos favoritos, faça seu cadastro ou entre em seu perfil.</p>
-                <button type="button" onclick="closeover()">OK</button>
-            </div>
+                <script>
+                    let over = document.getElementById("over");
 
-            <script>
-                let over = document.getElementById("over");
-
-                function openover() {
-                    over.classList.add("open-over");
-                }
+                    function openover() {
+                        over.classList.add("open-over");
+                    }
 
 
-                function closeover() {
-                    over.classList.remove("open-over");
-                }
+                    function closeover() {
+                        over.classList.remove("open-over");
+                    }
 
 
-            </script>
+                </script>
 
 
 
@@ -281,10 +286,10 @@
                     </h1>
             </a>
             <button type="submit" onclick="openover()">
-            <div class="vetor">
-                <img src="imagem/vector coracao.png" alt="vetor coração">
-            </div>
-        </button>
+                <div class="vetor">
+                    <img src="imagem/vector coracao.png" alt="vetor coração">
+                </div>
+            </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
@@ -302,10 +307,10 @@
                     </h1>
             </a>
             <button type="submit" onclick="openover()">
-            <div class="vetor">
-                <img src="imagem/vector coracao.png" alt="vetor coração">
-            </div>
-        </button>
+                <div class="vetor">
+                    <img src="imagem/vector coracao.png" alt="vetor coração">
+                </div>
+            </button>
         </div>
         <div class="planta-preco">
             <h3 class="preco">
