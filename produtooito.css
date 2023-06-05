@@ -161,6 +161,35 @@ nav ul li a:hover::after {
     cursor: pointer;
 }
 
+
+
+/* esconder icones */
+nav ul.menu-icones {
+    display: none;
+}
+
+/* fim */
+
+/* definindo os tamanhos dos  */
+.menu-icone {
+    width: 54px;
+}
+
+.menu-iconess {
+    width: 56px;
+    padding-left: 17px;
+    margin-top: -5px;
+}
+
+.menu-iconesss {
+    width: 54px;
+    padding-left: 17px;
+    margin-top: -3px;
+}
+
+/* fim  */
+
+
 .gran {
     position: absolute;
     width: 1122px;
@@ -1041,3 +1070,91 @@ letter-spacing: 0.12em;
 color: #000000;
 
 }
+
+
+
+    @media screen and (max-width:400px) {
+  nav .main-nav ul li a {
+    display: none;
+  }    
+
+  nav ul.menu-icones {
+    display: flex;
+    margin-left: 40%;
+    margin-top: -20%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  nav a .menu-icone {
+    padding-left: 20px;
+  }
+
+  .logo {
+    width: 150px;
+    height: 150px;
+    left: 20%;
+    transform: translateX(-50%);
+  }
+
+  main .gran {
+    width: 350px;
+    height: 0;
+    margin-left: -176px;
+    margin-top: 7px;
+    text-align: center;
+  }
+
+
+.menuicon{
+    margin-top: 10px;
+}
+
+.seta{
+    margin-left: -187px;
+}
+
+.seta-lancamentos h3{
+    margin-left: -187px;
+}
+
+.arr{
+    width: 232px;
+    margin-left: -297px ;
+    height: auto;
+    margin-top: 60px;
+}
+
+
+#subir{
+margin-left: -682px;
+top: 115px;
+
+}
+
+
+#subir, .t{
+font-size: 38.35px;
+
+}
+
+#subir, .ri{
+    width: 238px;
+}
+
+
+.he{
+    margin-left: -5px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+} 
